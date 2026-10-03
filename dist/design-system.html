@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brand e design system — LiVE</title>
+<meta name="description" content="Linee guida del marchio LiVE: logo, colore, tipografia, griglia, iconografia, componenti, grafiche generative, movimento e tono di voce.">
+<meta name="theme-color" content="#17222B">
+<link rel="icon" href="assets/img/logo/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="LiVE — Consulenza strategica">
+<meta property="og:title" content="Brand e design system — LiVE">
+<meta property="og:description" content="Linee guida del marchio LiVE: logo, colore, tipografia, griglia, iconografia, componenti, grafiche generative, movimento e tono di voce.">
+<link rel="preload" href="assets/fonts/source-serif-4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/instrument-sans-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/design-system.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+
+<body class="page-design-system">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+  <symbol id="i-strategy" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2"/></symbol>
+  <symbol id="i-performance" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-7"/><path d="M16 7h4v4"/></symbol>
+  <symbol id="i-valuation" viewBox="0 0 24 24"><path d="M12 3v18M7 21h10M5 7h14"/><path d="m5 7-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/><circle cx="12" cy="4" r="1"/></symbol>
+  <symbol id="i-marketing" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/><path d="m12 12 7-7M16 5h3v3"/></symbol>
+  <symbol id="i-org" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="5"/><rect x="3" y="16" width="6" height="5"/><rect x="15" y="16" width="6" height="5"/><path d="M12 8v4M6 16v-4h12v4"/></symbol>
+  <symbol id="i-digital" viewBox="0 0 24 24"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8zM5 15l.6 1.4L7 17l-1.4.6L5 19l-.6-1.4L3 17l1.4-.6z"/></symbol>
+  <symbol id="i-data" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><path d="M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16"/><path d="M3 8h18M9 12l-2 2 2 2M15 12l2 2-2 2M13 11l-2 6"/></symbol>
+  <symbol id="i-change" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-14.3 4.9M4 12A8 8 0 0 1 18.3 7.1"/><path d="M18.5 3v4.2h-4.2M5.5 21v-4.2h4.2"/></symbol>
+  <symbol id="i-sales" viewBox="0 0 24 24"><path d="m3 17 6-6 4 4 8-8"/><path d="M15 7h6v6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+  <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17" cy="9" r="2.4"/><path d="M15.5 14.2A4.8 4.8 0 0 1 21 19"/></symbol>
+  <symbol id="i-academy" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5M22 9v6"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></symbol>
+  <symbol id="i-puzzle" viewBox="0 0 24 24"><path d="M4 7h4a2 2 0 1 1 4 0h4v4a2 2 0 1 1 0 4v4H4v-4a2 2 0 1 0 0-4z"/></symbol>
+  <symbol id="i-lifebuoy" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="m5.6 5.6 3.6 3.6M14.8 14.8l3.6 3.6M18.4 5.6l-3.6 3.6M9.2 14.8l-3.6 3.6"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/><path d="m3 17.5 9 5 9-5" opacity=".5"/></symbol>
+  <symbol id="i-compass" viewBox="0 0 24 24"><path d="M12 2v3M12 5l-6 16M12 5l6 16M8.5 14h7"/><circle cx="12" cy="5" r="1.5"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5 9-10"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-target-up" viewBox="0 0 24 24"><path d="M4 20h16M6 20V12M10 20V8M14 20v-5M18 20V5"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Vai al contenuto</a>
+<header class="site-header is-on-dark" data-header>
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="index.html" aria-label="LiVE — torna alla home"><svg class="logo" viewBox="28 12 940 300" role="img" aria-labelledby="logo-title-h"><title id="logo-title-h">LiVE — Laboratorio Intangibles e Valore Economico</title><g class="logo__mark"><path d="M35 18h37v253h137v33H35z"/><path d="M308 18h30v32h-30zM308 81h30v165h-30z"/><path d="M458 18h32l72 194 72-194h32l-88 228h-32z"/><path d="M790 18h165v27H821v70h125v27H821v77h140v27H790z"/></g><text class="logo__claim" x="231" y="303" textLength="730" lengthAdjust="spacingAndGlyphs">Laboratorio Intangibles e Valore Economico</text></svg></a>
+    <nav class="site-nav" aria-label="Navigazione principale">
+      <ul>
+        <li><a data-nav="chi-siamo" href="chi-siamo.html">Chi siamo</a></li>
+        <li><a data-nav="competenze" href="competenze.html">Competenze</a></li>
+        <li><a data-nav="casi" href="casi.html">Casi</a></li>
+        <li><a data-nav="carriere" href="carriere.html">Carriere</a></li>
+        <li><a data-nav="design-system" aria-current="page" href="design-system.html">Brand</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--primary btn--sm site-header__cta" href="contatti.html">Contattaci <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Apri il menu"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Navigazione mobile">
+    <ul>
+      <li><a class="mobile-nav__link" data-nav="home" href="index.html">Home <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a class="mobile-nav__link" data-nav="chi-siamo" href="chi-siamo.html">Chi siamo <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a class="mobile-nav__link" data-nav="competenze" href="competenze.html">Competenze <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a class="mobile-nav__link" data-nav="casi" href="casi.html">Casi <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a class="mobile-nav__link" data-nav="carriere" href="carriere.html">Carriere <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a class="mobile-nav__link" data-nav="design-system" aria-current="page" href="design-system.html">Brand e design system <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+    </ul>
+    <a class="btn btn--primary btn--block" href="contatti.html">Contattaci <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    <p class="small" style="color:var(--color-text-inverse-muted)">info@liveintangibles.it</p>
+  </nav>
+</header>
+
+<main id="main">
+<section class="page-hero">
+  <canvas class="fx-canvas" data-fx="waves" data-tilt="-0.16" aria-hidden="true" style="z-index:-2;left:30%"></canvas>
+  <div class="container">
+    <ol class="breadcrumb"><li><a href="index.html">Home</a></li><li aria-current="page">Brand e design system</li></ol>
+    <p class="overline">Design system · v1.0 · 2026</p>
+    <h1>Il sistema visivo di LiVE</h1>
+    <p class="lead">Regole, componenti e risorse per comunicare LiVE in modo coerente: autorevole come una società di consulenza internazionale, riconoscibile nel suo rosso.</p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="ds-layout">
+    <nav class="ds-nav" aria-label="Sezioni del design system" data-scrollspy>
+      <ol>
+        <li><a href="#principi">Principi</a></li>
+        <li><a href="#logo">Logo</a></li>
+        <li><a href="#colore">Colore</a></li>
+        <li><a href="#tipografia">Tipografia</a></li>
+        <li><a href="#griglia">Griglia e spazi</a></li>
+        <li><a href="#icone">Iconografia</a></li>
+        <li><a href="#componenti">Componenti</a></li>
+        <li><a href="#grafiche">Grafiche</a></li>
+        <li><a href="#dati">Dati</a></li>
+        <li><a href="#movimento">Movimento</a></li>
+        <li><a href="#voce">Tono di voce</a></li>
+        <li><a href="#token">Token</a></li>
+      </ol>
+    </nav>
+
+    <div>
+      <!-- 01 PRINCIPI ===================================================== -->
+      <section class="ds-section" id="principi" aria-labelledby="ds-principi">
+        <header>
+          <p class="overline">01 · Principi</p>
+          <h2 id="ds-principi">Rigore accademico, linguaggio d’impresa</h2>
+          <p class="lead">Il sistema traduce in forma visiva il posizionamento di LiVE: ricerca applicata al servizio delle decisioni. Ogni scelta grafica deve rendere più chiaro un contenuto, non decorarlo.</p>
+        </header>
+        <div class="principles">
+          <div class="principle"><span class="principle__k">A</span><h3>Autorevole</h3><p>Titoli in serif editoriale, molto spazio bianco, gerarchie nette. Lo stile di una pubblicazione, non di una brochure.</p></div>
+          <div class="principle"><span class="principle__k">C</span><h3>Chiaro</h3><p>Un messaggio per sezione. Frasi brevi, numeri in evidenza, diagrammi che spiegano un meccanismo.</p></div>
+          <div class="principle"><span class="principle__k">R</span><h3>Riconoscibile</h3><p>Il rosso LiVE è un accento, non uno sfondo continuo: segnala ciò che conta. L’inchiostro dà profondità.</p></div>
+          <div class="principle"><span class="principle__k">V</span><h3>Vivo</h3><p>Grafiche generative (onde, particelle, reti) evocano dati e intangibili in movimento, sempre con discrezione.</p></div>
+        </div>
+      </section>
+
+      <!-- 02 LOGO ========================================================= -->
+      <section class="ds-section" id="logo" aria-labelledby="ds-logo">
+        <header>
+          <p class="overline">02 · Logo</p>
+          <h2 id="ds-logo">Il marchio</h2>
+          <p class="lead">Il logotipo è stato ridisegnato in vettoriale mantenendo la geometria originale delle lettere L·i·V·E e il payoff «Laboratorio Intangibles e Valore Economico». L’alone grigio della versione precedente è stato eliminato per una resa nitida a ogni dimensione.</p>
+        </header>
+        <div class="logo-stages">
+          <figure class="logo-stage logo-stage--light"><svg class="logo" viewBox="28 12 940 300" role="img" aria-labelledby="logo-title-i"><title id="logo-title-i">LiVE — Laboratorio Intangibles e Valore Economico</title><g class="logo__mark"><path d="M35 18h37v253h137v33H35z"/><path d="M308 18h30v32h-30zM308 81h30v165h-30z"/><path d="M458 18h32l72 194 72-194h32l-88 228h-32z"/><path d="M790 18h165v27H821v70h125v27H821v77h140v27H790z"/></g><text class="logo__claim" x="231" y="303" textLength="730" lengthAdjust="spacingAndGlyphs">Laboratorio Intangibles e Valore Economico</text></svg><figcaption>Primario · su bianco</figcaption></figure>
+          <figure class="logo-stage logo-stage--ink"><svg class="logo" viewBox="28 12 940 300" role="img" aria-labelledby="logo-title-i2"><title id="logo-title-i2">LiVE — Laboratorio Intangibles e Valore Economico</title><g class="logo__mark"><path d="M35 18h37v253h137v33H35z"/><path d="M308 18h30v32h-30zM308 81h30v165h-30z"/><path d="M458 18h32l72 194 72-194h32l-88 228h-32z"/><path d="M790 18h165v27H821v70h125v27H821v77h140v27H790z"/></g><text class="logo__claim" x="231" y="303" textLength="730" lengthAdjust="spacingAndGlyphs">Laboratorio Intangibles e Valore Economico</text></svg><figcaption>Negativo · su inchiostro</figcaption></figure>
+          <figure class="logo-stage logo-stage--red"><img src="assets/img/logo/live-logo-white.svg" alt="Logo LiVE in bianco" style="width:100%;max-width:300px"><figcaption>Negativo · su rosso</figcaption></figure>
+          <figure class="logo-stage logo-stage--mono"><img src="assets/img/logo/live-wordmark.svg" alt="Logotipo LiVE senza payoff" style="width:100%;max-width:240px"><figcaption>Logotipo senza payoff · sotto i 120 px</figcaption></figure>
+          <figure class="logo-stage"><img class="mark" src="assets/img/logo/live-monogram.svg" alt="Monogramma LiVE"><figcaption>Monogramma · favicon e avatar</figcaption></figure>
+          <figure class="logo-stage"><img src="assets/img/logo/live-logo-legacy.png" alt="Logo LiVE nella versione precedente" style="width:100%;max-width:280px;opacity:.85"><figcaption>Versione precedente · solo archivio</figcaption></figure>
+        </div>
+
+        <h3 class="ds-sub">Area di rispetto e dimensioni minime</h3>
+        <div class="split split--even split--center">
+          <div class="clearspace">
+            <span class="clearspace__label" style="top:16px;left:50%;transform:translateX(-50%)">x</span>
+            <span class="clearspace__label" style="left:18px;top:50%">x</span>
+            <div class="clearspace__inner"><img src="assets/img/logo/live-logo.svg" alt="" style="width:100%"></div>
+          </div>
+          <ul class="tick-list">
+            <li><span>L’area di rispetto <strong>x</strong> è pari all’altezza della «i» minuscola: nessun elemento deve entrarvi.</span></li>
+            <li>Larghezza minima del logo con payoff: 120 px a schermo, 30 mm in stampa.</li>
+            <li>Sotto queste misure usare il logotipo senza payoff; sotto i 32 px usare il monogramma.</li>
+            <li>Su fondi scuri o rossi il logo è sempre bianco; su fondi chiari rosso con payoff rosso o inchiostro.</li>
+          </ul>
+        </div>
+
+        <h3 class="ds-sub">Usi da evitare</h3>
+        <div class="dont-grid">
+          <div class="dont"><div class="dont__stage" style="background:#17222B"><img src="assets/img/logo/live-logo.svg" alt="" style="width:80%"></div><p>Rosso su inchiostro: contrasto insufficiente (1,9:1).</p></div>
+          <div class="dont"><div class="dont__stage"><img src="assets/img/logo/live-logo.svg" alt="" style="width:80%;transform:scaleX(1.35)"></div><p>Non deformare né comprimere le proporzioni.</p></div>
+          <div class="dont"><div class="dont__stage"><img src="assets/img/logo/live-logo.svg" alt="" style="width:80%;filter:drop-shadow(4px 6px 0 #CAD0D2) hue-rotate(160deg)"></div><p>Non cambiare colore né aggiungere ombre o contorni.</p></div>
+          <div class="dont"><div class="dont__stage" style="background:url(assets/img/art/contour.svg) center/cover"><img src="assets/img/logo/live-logo.svg" alt="" style="width:80%"></div><p>Non posizionare su sfondi complessi senza un fondo pieno.</p></div>
+        </div>
+        <div class="downloads mt-6">
+          <a class="btn btn--secondary btn--sm" href="assets/img/logo/live-logo.svg" download>Logo SVG</a>
+          <a class="btn btn--secondary btn--sm" href="assets/img/logo/live-logo-white.svg" download>Logo bianco SVG</a>
+          <a class="btn btn--secondary btn--sm" href="assets/img/logo/live-wordmark.svg" download>Logotipo SVG</a>
+          <a class="btn btn--secondary btn--sm" href="assets/img/logo/live-monogram.svg" download>Monogramma SVG</a>
+        </div>
+      </section>
+
+      <!-- 03 COLORE ======================================================= -->
+      <section class="ds-section" id="colore" aria-labelledby="ds-colore">
+        <header>
+          <p class="overline">03 · Colore</p>
+          <h2 id="ds-colore">Una palette essenziale</h2>
+          <p class="lead">Quattro colori di base, derivati dal marchio e dal company profile. Il rosso è l’accento distintivo; inchiostro e ardesia costruiscono la struttura; bianco e grigi danno respiro.</p>
+        </header>
+        <div class="swatch-grid">
+          <div class="swatch"><div class="swatch__chip" style="background:#941F20;color:#fff">Primario</div><div class="swatch__body"><span class="swatch__name">Rosso LiVE</span><span class="swatch__code">#941F20 · RGB 148 31 32</span><span class="swatch__code">--live-red-700</span><p class="swatch__use">Logo, pulsanti principali, accenti, numeri chiave.</p></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#17222B;color:#fff">Struttura</div><div class="swatch__body"><span class="swatch__name">Inchiostro</span><span class="swatch__code">#17222B · RGB 23 34 43</span><span class="swatch__code">--live-ink-900</span><p class="swatch__use">Testo, sezioni scure, header e footer.</p></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#59666F;color:#fff">Supporto</div><div class="swatch__body"><span class="swatch__name">Ardesia</span><span class="swatch__code">#59666F · RGB 89 102 111</span><span class="swatch__code">--live-slate-600</span><p class="swatch__use">Testo secondario, didascalie, grafici.</p></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#CAD0D2;color:#17222B">Dettaglio</div><div class="swatch__body"><span class="swatch__name">Argento</span><span class="swatch__code">#CAD0D2 · RGB 202 208 210</span><span class="swatch__code">--live-grey-300</span><p class="swatch__use">Filetti, bordi, serie secondarie nei grafici.</p></div></div>
+        </div>
+
+        <h3 class="ds-sub">Scale tonali</h3>
+        <div class="ramp" aria-label="Scala del rosso">
+          <div style="background:#2a0a0b;color:#fff">950<br>#2A0A0B</div><div style="background:#4a1011;color:#fff">900<br>#4A1011</div><div style="background:#6e1718;color:#fff">800<br>#6E1718</div><div style="background:#941f20;color:#fff">700<br>#941F20</div><div style="background:#a92a2a;color:#fff">600<br>#A92A2A</div><div style="background:#c23b37;color:#fff">500<br>#C23B37</div><div style="background:#e66b63;color:#17222B">400<br>#E66B63</div><div style="background:#f3b3ac;color:#17222B">200<br>#F3B3AC</div><div style="background:#f6e3e2;color:#17222B">100<br>#F6E3E2</div><div style="background:#fbf2f1;color:#17222B">50<br>#FBF2F1</div>
+        </div>
+        <div class="ramp" aria-label="Scala dei neutri">
+          <div style="background:#0b1116;color:#fff">Ink 950<br>#0B1116</div><div style="background:#17222b;color:#fff">Ink 900<br>#17222B</div><div style="background:#202a32;color:#fff">Ink 800<br>#202A32</div><div style="background:#2e3a44;color:#fff">Ink 700<br>#2E3A44</div><div style="background:#59666f;color:#fff">Slate 600<br>#59666F</div><div style="background:#66727a;color:#fff">Slate 500<br>#66727A</div><div style="background:#9aa4aa;color:#17222B">Slate 400<br>#9AA4AA</div><div style="background:#cad0d2;color:#17222B">Grey 300<br>#CAD0D2</div><div style="background:#dee2e3;color:#17222B">Grey 200<br>#DEE2E3</div><div style="background:#f6f7f7;color:#17222B">Grey 50<br>#F6F7F7</div>
+        </div>
+
+        <h3 class="ds-sub">Proporzioni d’uso</h3>
+        <div class="ratio-bar" role="img" aria-label="Proporzioni: bianco e grigi 60%, inchiostro 25%, rosso 10%, ardesia e argento 5%">
+          <span style="flex:60;background:#fff;color:#59666F;border-right:1px solid var(--color-line)">60%</span>
+          <span style="flex:25;background:#17222B;color:#fff">25%</span>
+          <span style="flex:10;background:#941F20;color:#fff">10%</span>
+          <span style="flex:5;background:#59666F;color:#fff">5%</span>
+        </div>
+        <div class="ratio-legend"><span>Bianco e grigi chiari — respiro</span><span>Inchiostro — struttura</span><span>Rosso — accento</span><span>Ardesia e argento — supporto</span></div>
+
+        <h3 class="ds-sub">Accessibilità (WCAG 2.2)</h3>
+        <div class="table-wrap">
+          <table class="contrast-table">
+            <thead><tr><th>Combinazione</th><th>Esempio</th><th>Contrasto</th><th>Esito</th></tr></thead>
+            <tbody>
+              <tr><td>Bianco su Rosso LiVE</td><td><span class="contrast-sample" style="background:#941F20;color:#fff">Contattaci</span></td><td>8,5:1</td><td class="pass">AAA</td></tr>
+              <tr><td>Bianco su Inchiostro</td><td><span class="contrast-sample" style="background:#17222B;color:#fff">Testo</span></td><td>16,2:1</td><td class="pass">AAA</td></tr>
+              <tr><td>Rosso LiVE su bianco</td><td><span class="contrast-sample" style="color:#941F20">Approfondisci</span></td><td>8,5:1</td><td class="pass">AAA</td></tr>
+              <tr><td>Ardesia 600 su bianco</td><td><span class="contrast-sample" style="color:#59666F">Testo secondario</span></td><td>5,9:1</td><td class="pass">AA</td></tr>
+              <tr><td>Ardesia 500 su bianco</td><td><span class="contrast-sample" style="color:#66727A">Didascalia</span></td><td>4,9:1</td><td class="pass">AA</td></tr>
+              <tr><td>Rosso 400 su Inchiostro</td><td><span class="contrast-sample" style="background:#17222B;color:#E66B63">Accento su scuro</span></td><td>5,1:1</td><td class="pass">AA</td></tr>
+              <tr><td>Rosso LiVE su Inchiostro</td><td><span class="contrast-sample" style="background:#17222B;color:#941F20">Da evitare</span></td><td>1,9:1</td><td class="limit">Non usare per testo</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 04 TIPOGRAFIA =================================================== -->
+      <section class="ds-section" id="tipografia" aria-labelledby="ds-tipo">
+        <header>
+          <p class="overline">04 · Tipografia</p>
+          <h2 id="ds-tipo">Due voci: editoriale e funzionale</h2>
+          <p class="lead">Un serif contemporaneo per i titoli dà il tono di una pubblicazione autorevole; un grottesco preciso per testi, interfaccia e dati. Entrambi open source (SIL Open Font License) e ospitati direttamente sul sito, senza servizi esterni.</p>
+        </header>
+        <div class="type-pair">
+          <div class="type-card"><div class="type-card__glyph serif">Aa<em>g</em></div><h3>Source Serif 4</h3><p>Titoli, citazioni, numeri chiave. Pesi 300–600, corsivo per enfasi. Interlinea 1,05–1,2; tracking −2%.</p><p class="type-card__abc serif">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz 0123456789</p></div>
+          <div class="type-card"><div class="type-card__glyph" style="font-family:var(--font-sans);font-weight:500">Aa<em>g</em></div><h3>Instrument Sans</h3><p>Testo corrente, interfaccia, etichette, tabelle. Pesi 400–700. Interlinea 1,6 per il testo.</p><p class="type-card__abc">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz 0123456789</p></div>
+        </div>
+        <h3 class="ds-sub">Scala tipografica fluida</h3>
+        <div class="type-scale">
+          <div class="type-row"><div class="type-row__meta"><strong>Display</strong>--fs-display<br>44 → 96 px</div><div class="type-row__sample display">Valore</div></div>
+          <div class="type-row"><div class="type-row__meta"><strong>H1</strong>--fs-h1<br>36 → 72 px</div><div class="type-row__sample h1">Consulenza strategica</div></div>
+          <div class="type-row"><div class="type-row__meta"><strong>H2</strong>--fs-h2<br>30 → 52 px</div><div class="type-row__sample h2">Dai dati alle decisioni</div></div>
+          <div class="type-row"><div class="type-row__meta"><strong>H3</strong>--fs-h3<br>22 → 32 px</div><div class="type-row__sample h3">Pianificazione e revisione strategica</div></div>
+          <div class="type-row"><div class="type-row__meta"><strong>H4</strong>--fs-h4 · sans<br>18 → 22 px</div><div class="type-row__sample h4">Supporto direzionale</div></div>
+          <div class="type-row"><div class="type-row__meta"><strong>Lead</strong>--fs-lead<br>18 → 23 px</div><div class="type-row__sample lead">Guidiamo imprenditori e manager nello sviluppare il potenziale delle loro aziende.</div></div>
+          <div class="type-row"><div class="type-row__meta"><strong>Body</strong>--fs-body<br>17 px / 1,6</div><div class="type-row__sample">Analizziamo risultati, posizionamento e scenari per definire le priorità di sviluppo e supportiamo la costruzione del piano.</div></div>
+          <div class="type-row"><div class="type-row__meta"><strong>Overline</strong>--fs-overline<br>12 px · +14%</div><div class="type-row__sample"><span class="overline">Use case 02</span></div></div>
+          <div class="type-row"><div class="type-row__meta"><strong>Caption</strong>--fs-caption<br>13 px</div><div class="type-row__sample caption">Percorso e tempi indicativi.</div></div>
+        </div>
+      </section>
+
+      <!-- 05 GRIGLIA ====================================================== -->
+      <section class="ds-section" id="griglia" aria-labelledby="ds-griglia">
+        <header>
+          <p class="overline">05 · Griglia e spaziatura</p>
+          <h2 id="ds-griglia">Struttura a 12 colonne, ritmo da 4 px</h2>
+          <p class="lead">Contenitore massimo 1320 px, margini fluidi da 16 a 48 px, spazio tra colonne da 16 a 32 px. Le sezioni respirano con un padding verticale da 64 a 144 px.</p>
+        </header>
+        <div class="grid-demo" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span></div>
+        <h3 class="ds-sub">Scala degli spazi</h3>
+        <div class="space-scale">
+          <div class="space-row"><span>--space-1</span><span>4 px</span><i style="width:4px"></i></div>
+          <div class="space-row"><span>--space-2</span><span>8 px</span><i style="width:8px"></i></div>
+          <div class="space-row"><span>--space-3</span><span>12 px</span><i style="width:12px"></i></div>
+          <div class="space-row"><span>--space-4</span><span>16 px</span><i style="width:16px"></i></div>
+          <div class="space-row"><span>--space-5</span><span>24 px</span><i style="width:24px"></i></div>
+          <div class="space-row"><span>--space-6</span><span>32 px</span><i style="width:32px"></i></div>
+          <div class="space-row"><span>--space-7</span><span>48 px</span><i style="width:48px"></i></div>
+          <div class="space-row"><span>--space-8</span><span>64 px</span><i style="width:64px"></i></div>
+          <div class="space-row"><span>--space-9</span><span>96 px</span><i style="width:96px"></i></div>
+          <div class="space-row"><span>--space-10</span><span>128 px</span><i style="width:128px"></i></div>
+        </div>
+        <p class="mt-6 muted max-60">Forme: angoli vivi (raggio 0) per pulsanti, card e campi; solo chip e filtri sono arrotondati. Le linee sono sottili (1 px) in argento; il filetto rosso da 2–3 px segnala lo stato attivo.</p>
+      </section>
+
+      <!-- 06 ICONE ======================================================== -->
+      <section class="ds-section" id="icone" aria-labelledby="ds-icone">
+        <header>
+          <p class="overline">06 · Iconografia</p>
+          <h2 id="ds-icone">Icone lineari, tratto 1,5 px</h2>
+          <p class="lead">Disegnate su griglia 24 × 24, terminali arrotondati, nessun riempimento. Si usano in rosso su chiaro e in rosso 400 su scuro, sempre accompagnate da un’etichetta.</p>
+        </header>
+        <div class="icon-grid">
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-strategy"/></svg>strategy</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-performance"/></svg>performance</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-valuation"/></svg>valuation</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-marketing"/></svg>marketing</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-org"/></svg>org</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-digital"/></svg>digital</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-data"/></svg>data</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg>code</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-change"/></svg>change</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-sales"/></svg>sales</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>search</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-people"/></svg>people</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-academy"/></svg>academy</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-link"/></svg>link</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg>bulb</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg>puzzle</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-lifebuoy"/></svg>lifebuoy</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>layers</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-compass"/></svg>compass</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>mail</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>pin</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>globe</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>arrow</div>
+          <div class="icon-cell"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>arrow-up-right</div>
+        </div>
+      </section>
+
+      <!-- 07 COMPONENTI =================================================== -->
+      <section class="ds-section" id="componenti" aria-labelledby="ds-comp">
+        <header>
+          <p class="overline">07 · Componenti</p>
+          <h2 id="ds-comp">Gli elementi dell’interfaccia</h2>
+          <p class="lead">Componenti essenziali e riutilizzabili. Gli stati hover usano un riempimento che scorre da sinistra; il focus da tastiera è sempre visibile.</p>
+        </header>
+
+        <h3 class="ds-sub">Pulsanti e link</h3>
+        <div class="demo">
+          <div class="demo__stage">
+            <a class="btn btn--primary" href="#componenti">Primario <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--secondary" href="#componenti">Secondario</a>
+            <a class="btn btn--primary btn--sm" href="#componenti">Piccolo</a>
+            <a class="link-arrow" href="#componenti"><span>Link con freccia</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="demo__note">.btn .btn--primary · .btn--secondary · .btn--sm · .link-arrow</div>
+        </div>
+        <div class="demo">
+          <div class="demo__stage demo__stage--ink">
+            <a class="btn btn--ghost" href="#componenti">Ghost su scuro</a>
+            <a class="btn btn--light" href="#componenti">Chiaro</a>
+            <a class="link-arrow" style="color:#fff" href="#componenti"><span>Link su scuro</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="demo__note">.btn--ghost · .btn--light</div>
+        </div>
+
+        <h3 class="ds-sub">Etichette, filtri, sovratitoli</h3>
+        <div class="demo">
+          <div class="demo__stage">
+            <span class="overline">Sovratitolo</span>
+            <span class="chip">Dashboard</span><span class="chip chip--accent">Strategia</span><span class="chip chip--dark">Nuovo</span>
+            <button class="filter" type="button" aria-pressed="true">Tutti</button><button class="filter" type="button" aria-pressed="false">Marketing e vendite</button>
+          </div>
+          <div class="demo__note">.overline · .chip · .chip--accent · .chip--dark · .filter[aria-pressed]</div>
+        </div>
+
+        <h3 class="ds-sub">Card</h3>
+        <div class="demo-cols">
+          <a class="cap-card" href="#componenti" style="border:1px solid var(--color-line)">
+            <div class="cap-card__head"><span class="cap-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-strategy"/></svg></span><span class="cap-card__num">01</span></div>
+            <h3 class="cap-card__title">Card competenza</h3>
+            <p class="cap-card__text">Al passaggio del mouse si riempie di inchiostro dal basso.</p>
+            <span class="link-arrow"><span>Approfondisci</span> <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="case-card" href="#componenti">
+            <div class="case-card__art" style="background-image:url(assets/img/art/bars.svg)"></div>
+            <div class="case-card__body">
+              <div class="case-card__meta"><span class="case-card__num">USE CASE 00</span><span>Area</span></div>
+              <h3 class="case-card__title">Card caso</h3>
+              <p class="case-card__text">Illustrazione, metadati, titolo serif, testo e output.</p>
+              <div class="case-card__outputs"><span class="chip">Output</span><span class="chip">KPI</span></div>
+            </div>
+          </a>
+        </div>
+
+        <h3 class="ds-sub">Numeri chiave</h3>
+        <div class="demo"><div class="demo__stage" style="display:block">
+          <div class="stats"><div class="stat"><span class="stat__value">2007</span><span class="stat__label">Anno di origine come spin-off accademico</span></div><div class="stat"><span class="stat__value">+15</span><span class="stat__label">Partner e collaboratori attivi</span></div></div>
+        </div><div class="demo__note">.stats · .stat__value (serif, rosso) · .stat__label</div></div>
+
+        <h3 class="ds-sub">Campi modulo</h3>
+        <div class="demo"><div class="demo__stage" style="display:block">
+          <div class="form__row">
+            <div class="field"><label for="ds-in">Campo di testo</label><input class="input" id="ds-in" placeholder="Nome e cognome"></div>
+            <div class="field"><label for="ds-sel">Selezione</label><select class="select" id="ds-sel"><option>Strategia e modello di business</option></select></div>
+          </div>
+        </div><div class="demo__note">.input · .select · .textarea · .check — bordo inferiore marcato, rosso al focus</div></div>
+      </section>
+
+      <!-- 08 GRAFICHE ===================================================== -->
+      <section class="ds-section" id="grafiche" aria-labelledby="ds-grafiche">
+        <header>
+          <p class="overline">08 · Grafiche</p>
+          <h2 id="ds-grafiche">Un linguaggio generativo per gli intangibili</h2>
+          <p class="lead">Al posto della fotografia stock, illustrazioni astratte generate da codice nei colori del marchio. L’onda rossa del sito precedente diventa la firma visiva, animata e interattiva.</p>
+        </header>
+        <div class="art-grid">
+          <div class="live-fx" style="grid-column:1/-1"><canvas data-fx="waves" aria-hidden="true"></canvas><span class="live-fx__label">Onde — firma visiva (animata, reagisce al cursore)</span></div>
+          <div class="live-fx" style="grid-column:1/-1;height:260px"><canvas data-fx="particles" aria-hidden="true"></canvas><span class="live-fx__label">Particelle — sezioni scure dedicate a dati e competenze</span></div>
+          <figure><div class="art-box" style="background-image:url(assets/img/art/layers.svg)"></div><figcaption><strong>Livelli</strong><span>Modelli di intervento, strutture</span></figcaption></figure>
+          <figure><div class="art-box" style="background-image:url(assets/img/art/bars.svg)"></div><figcaption><strong>Barre</strong><span>Performance, controllo, BI</span></figcaption></figure>
+          <figure><div class="art-box" style="background-image:url(assets/img/art/contour.svg)"></div><figcaption><strong>Curve di livello</strong><span>Strategia, scenari, mercato</span></figcaption></figure>
+          <figure><div class="art-box" style="background-image:url(assets/img/art/network.svg)"></div><figcaption><strong>Rete</strong><span>Organizzazione, persone, relazioni</span></figcaption></figure>
+          <figure><div class="art-box" style="background-image:url(assets/img/art/orbit.svg)"></div><figcaption><strong>Orbite</strong><span>Sistema di competenze, valore</span></figcaption></figure>
+          <figure><div class="art-box" style="background-image:url(assets/img/art/dots.svg)"></div><figcaption><strong>Matrice di punti</strong><span>Dati, analytics, tecnologia</span></figcaption></figure>
+        </div>
+        <p class="mt-6 muted max-60">Le illustrazioni statiche si rigenerano con <code>node scripts/gen-art.mjs</code>; le versioni animate rispettano l’impostazione «riduci movimento» del sistema operativo.</p>
+      </section>
+
+      <!-- 09 DATI ========================================================= -->
+      <section class="ds-section" id="dati" aria-labelledby="ds-dati">
+        <header>
+          <p class="overline">09 · Visualizzazione dati</p>
+          <h2 id="ds-dati">Grafici sobri, un solo accento</h2>
+          <p class="lead">Il rosso evidenzia il dato da guardare; tutte le altre serie sono in inchiostro, ardesia o argento. Etichette dirette al posto delle legende, griglie leggere, nessun effetto 3D.</p>
+        </header>
+        <div class="viz">
+          <figure>
+            <svg viewBox="0 0 420 240" role="img" aria-label="Esempio di grafico a barre con una barra evidenziata in rosso">
+              <g stroke="#DEE2E3"><line x1="40" x2="410" y1="40" y2="40"/><line x1="40" x2="410" y1="100" y2="100"/><line x1="40" x2="410" y1="160" y2="160"/><line x1="40" x2="410" y1="210" y2="210" stroke="#9AA4AA"/></g>
+              <g fill="#CAD0D2"><rect x="55" y="140" width="40" height="70"/><rect x="115" y="120" width="40" height="90"/><rect x="175" y="130" width="40" height="80"/><rect x="235" y="96" width="40" height="114"/></g>
+              <rect x="295" y="62" width="40" height="148" fill="#941F20"/>
+              <rect x="355" y="80" width="40" height="130" fill="#59666F"/>
+              <text x="315" y="54" text-anchor="middle" font-size="13" font-weight="600" fill="#941F20">+24%</text>
+              <g font-size="11" fill="#66727A" text-anchor="middle"><text x="75" y="228">T1</text><text x="135" y="228">T2</text><text x="195" y="228">T3</text><text x="255" y="228">T4</text><text x="315" y="228">T5</text><text x="375" y="228">T6</text></g>
+            </svg>
+            <figcaption>Barre: un solo valore in rosso con etichetta diretta. Dati illustrativi.</figcaption>
+          </figure>
+          <figure>
+            <svg viewBox="0 0 420 240" role="img" aria-label="Esempio di grafico a linee con due serie">
+              <g stroke="#DEE2E3"><line x1="40" x2="410" y1="40" y2="40"/><line x1="40" x2="410" y1="100" y2="100"/><line x1="40" x2="410" y1="160" y2="160"/><line x1="40" x2="410" y1="210" y2="210" stroke="#9AA4AA"/></g>
+              <polyline points="50,170 110,160 170,150 230,152 290,140 350,132 400,128" fill="none" stroke="#9AA4AA" stroke-width="2"/>
+              <polyline points="50,180 110,165 170,140 230,128 290,98 350,80 400,58" fill="none" stroke="#941F20" stroke-width="2.5"/>
+              <circle cx="400" cy="58" r="5" fill="#941F20"/><circle cx="400" cy="128" r="4" fill="#9AA4AA"/>
+              <text x="392" y="46" text-anchor="end" font-size="12" font-weight="600" fill="#941F20">Con il progetto</text>
+              <text x="392" y="148" text-anchor="end" font-size="12" fill="#66727A">Tendenza</text>
+            </svg>
+            <figcaption>Linee: serie principale in rosso, confronto in argento, etichette a fine linea. Dati illustrativi.</figcaption>
+          </figure>
+        </div>
+        <div class="ramp mt-6" aria-label="Palette per grafici">
+          <div style="background:#941F20;color:#fff">viz-1<br>Rosso</div><div style="background:#17222B;color:#fff">viz-2<br>Inchiostro</div><div style="background:#59666F;color:#fff">viz-3<br>Ardesia</div><div style="background:#E66B63;color:#17222B">viz-4<br>Rosso 400</div><div style="background:#CAD0D2;color:#17222B">viz-5<br>Argento</div>
+        </div>
+      </section>
+
+      <!-- 10 MOVIMENTO ==================================================== -->
+      <section class="ds-section" id="movimento" aria-labelledby="ds-motion">
+        <header>
+          <p class="overline">10 · Movimento</p>
+          <h2 id="ds-motion">Movimenti calmi e decisi</h2>
+          <p class="lead">Le transizioni accompagnano lo sguardo: elementi che emergono dal basso allo scroll, riempimenti che scorrono, numeri che si contano. Mai rimbalzi, mai movimenti superflui.</p>
+        </header>
+        <div class="motion-demo">
+          <div class="motion-label"><span>--ease-out · cubic-bezier(.16, 1, .3, 1)</span><span>entrate, hover</span></div>
+          <div class="motion-track ease-out" aria-hidden="true"><i></i></div>
+          <div class="motion-label"><span>--ease-in-out · cubic-bezier(.65, 0, .35, 1)</span><span>cicli, spostamenti</span></div>
+          <div class="motion-track ease-in-out" aria-hidden="true"><i></i></div>
+        </div>
+        <div class="table-wrap mt-6">
+          <table class="contrast-table">
+            <thead><tr><th>Token</th><th>Durata</th><th>Uso</th></tr></thead>
+            <tbody>
+              <tr><td>--dur-1</td><td>160 ms</td><td>Colori, sottolineature</td></tr>
+              <tr><td>--dur-2</td><td>320 ms</td><td>Hover, stati dei componenti</td></tr>
+              <tr><td>--dur-3</td><td>640 ms</td><td>Riempimenti, card, pannelli</td></tr>
+              <tr><td>--dur-4</td><td>1100 ms</td><td>Rivelazioni allo scroll, grafici</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="mt-5 muted max-60">Con «riduci movimento» attivo tutte le durate si azzerano e le grafiche animate diventano immagini statiche.</p>
+      </section>
+
+      <!-- 11 TONO DI VOCE ================================================= -->
+      <section class="ds-section" id="voce" aria-labelledby="ds-voce">
+        <header>
+          <p class="overline">11 · Tono di voce</p>
+          <h2 id="ds-voce">Parliamo come consulenti, non come venditori</h2>
+          <p class="lead">Concreti, misurati, orientati al risultato. Usiamo il «noi» per LiVE e il «voi» per l’impresa; titoli che affermano una tesi, testi che spiegano come.</p>
+        </header>
+        <div class="voice">
+          <div class="voice__card voice__card--do"><h3>Sì</h3><blockquote>«Integriamo le fonti informative aziendali e trasformiamo i dati in indicatori e dashboard fruibili dal management.»</blockquote><p>Verbo d’azione, oggetto concreto, beneficio chiaro.</p></div>
+          <div class="voice__card voice__card--dont"><h3>No</h3><blockquote>«Soluzioni innovative a 360° per il successo straordinario della tua azienda!»</blockquote><p>Superlativi vaghi, nessun contenuto verificabile.</p></div>
+          <div class="voice__card voice__card--do"><h3>Sì</h3><blockquote>«Tre livelli di supporto coprono decisioni e attuazione.»</blockquote><p>Titolo come tesi: si capisce il messaggio anche leggendo solo quello.</p></div>
+          <div class="voice__card voice__card--dont"><h3>No</h3><blockquote>«I nostri servizi»</blockquote><p>Titolo etichetta: non comunica nulla.</p></div>
+        </div>
+      </section>
+
+      <!-- 12 TOKEN ======================================================== -->
+      <section class="ds-section" id="token" aria-labelledby="ds-token">
+        <header>
+          <p class="overline">12 · Token</p>
+          <h2 id="ds-token">Una sola fonte di verità</h2>
+          <p class="lead">Tutti i valori sono variabili CSS in <code>assets/css/tokens.css</code>: modificandole si aggiorna l’intero sito. Usare sempre i ruoli semantici nei componenti.</p>
+        </header>
+<pre class="code"><span class="c">/* Colore — primitivi */</span>
+<span class="t">--live-red-700</span>: #941F20;   <span class="c">/* Rosso LiVE */</span>
+<span class="t">--live-ink-900</span>: #17222B;   <span class="c">/* Inchiostro */</span>
+<span class="t">--live-slate-600</span>: #59666F; <span class="c">/* Ardesia */</span>
+<span class="t">--live-grey-300</span>: #CAD0D2;  <span class="c">/* Argento */</span>
+
+<span class="c">/* Colore — ruoli */</span>
+<span class="t">--color-text</span>: var(--live-ink-900);
+<span class="t">--color-text-muted</span>: var(--live-slate-600);
+<span class="t">--color-accent</span>: var(--live-red-700);
+<span class="t">--color-accent-on-dark</span>: var(--live-red-400);
+<span class="t">--color-line</span>: var(--live-grey-200);
+
+<span class="c">/* Tipografia */</span>
+<span class="t">--font-serif</span>: "Source Serif 4", Georgia, serif;
+<span class="t">--font-sans</span>: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+<span class="t">--fs-h1</span>: clamp(2.25rem, 1.5rem + 3.4vw, 4.5rem);
+
+<span class="c">/* Spazio, forma, movimento */</span>
+<span class="t">--space-5</span>: 1.5rem;  <span class="t">--container</span>: 1320px;  <span class="t">--radius-0</span>: 0;
+<span class="t">--ease-out</span>: cubic-bezier(0.16, 1, 0.3, 1);  <span class="t">--dur-3</span>: 640ms;</pre>
+        <div class="downloads mt-6">
+          <a class="btn btn--secondary btn--sm" href="assets/css/tokens.css" download>Scarica tokens.css</a>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <a href="index.html" aria-label="LiVE — home"><svg class="logo" viewBox="28 12 940 300" role="img" aria-labelledby="logo-title-f"><title id="logo-title-f">LiVE — Laboratorio Intangibles e Valore Economico</title><g class="logo__mark"><path d="M35 18h37v253h137v33H35z"/><path d="M308 18h30v32h-30zM308 81h30v165h-30z"/><path d="M458 18h32l72 194 72-194h32l-88 228h-32z"/><path d="M790 18h165v27H821v70h125v27H821v77h140v27H790z"/></g><text class="logo__claim" x="231" y="303" textLength="730" lengthAdjust="spacingAndGlyphs">Laboratorio Intangibles e Valore Economico</text></svg></a>
+        <p class="site-footer__claim">Aiutiamo imprenditori e imprese a creare maggior valore dalle loro organizzazioni.</p>
+      </div>
+      <div class="site-footer__cols">
+        <div>
+          <h2>LiVE</h2>
+          <ul>
+            <li><a href="chi-siamo.html">Chi siamo</a></li>
+            <li><a href="competenze.html">Competenze</a></li>
+            <li><a href="casi.html">Casi</a></li>
+            <li><a href="carriere.html">Carriere</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contatti</h2>
+          <ul>
+            <li><a href="mailto:info@liveintangibles.it">info@liveintangibles.it</a></li>
+            <li><a href="https://www.liveconsulenzastrategica.com">liveconsulenzastrategica.com</a></li>
+            <li>Ancona, Italia</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Risorse</h2>
+          <ul>
+            <li><a href="contatti.html">Scrivici</a></li>
+            <li><a href="design-system.html">Brand e design system</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <svg class="site-footer__giant" viewBox="28 12 940 240" aria-hidden="true" focusable="false"><path d="M35 18h37v195h137v33H35z"/><path class="giant-i" d="M308 18h30v32h-30zM308 81h30v165h-30z"/><path d="M458 18h32l72 194 72-194h32l-88 228h-32z"/><path d="M790 18h165v27H821v70h125v27H821v77h140v27H790z"/></svg>
+    <div class="site-footer__bottom">
+      <p>© <span data-year>2026</span> LiVE S.r.l. · Spin-off dell’Università Politecnica delle Marche</p>
+      <p>Laboratorio Intangibles e Valore Economico</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/fx.js" defer></script>
+
+
+</body>
+</html>

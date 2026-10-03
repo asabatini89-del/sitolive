@@ -1,0 +1,137 @@
+/* ==========================================================================
+   LiVE Design System — Token
+   Fonte unica di verità per colore, tipografia, spaziatura, forma e movimento.
+   I colori primari derivano dal marchio e dal company profile 2026:
+   rosso #941F20 · inchiostro #17222B · ardesia #59666F · grigio #CAD0D2
+   ========================================================================== */
+
+:root {
+  /* ---- Colore: palette primitiva ---------------------------------------- */
+  --live-red-950: #2a0a0b;
+  --live-red-900: #4a1011;
+  --live-red-800: #6e1718;
+  --live-red-700: #941f20; /* Rosso LiVE — colore del marchio */
+  --live-red-600: #a92a2a;
+  --live-red-500: #c23b37;
+  --live-red-400: #e66b63; /* accento su fondi scuri (AA su inchiostro) */
+  --live-red-200: #f3b3ac;
+  --live-red-100: #f6e3e2;
+  --live-red-50: #fbf2f1;
+
+  --live-ink-950: #0b1116;
+  --live-ink-900: #17222b; /* Inchiostro — testo e superfici scure */
+  --live-ink-800: #202a32;
+  --live-ink-700: #2e3a44;
+
+  --live-slate-600: #59666f; /* Ardesia — testo secondario */
+  --live-slate-500: #66727a;
+  --live-slate-400: #9aa4aa;
+
+  --live-grey-300: #cad0d2; /* Grigio argento — linee e dettagli */
+  --live-grey-200: #dee2e3;
+  --live-grey-100: #eef0f0;
+  --live-grey-50: #f6f7f7;
+  --live-white: #ffffff;
+
+  /* ---- Colore: ruoli semantici ------------------------------------------ */
+  --color-bg: var(--live-white);
+  --color-bg-alt: var(--live-grey-50);
+  --color-bg-inverse: var(--live-ink-900);
+  --color-bg-brand: var(--live-red-700);
+  --color-text: var(--live-ink-900);
+  --color-text-muted: var(--live-slate-600);
+  --color-text-subtle: var(--live-slate-500);
+  --color-text-inverse: var(--live-white);
+  --color-text-inverse-muted: #b9c1c6;
+  --color-accent: var(--live-red-700);
+  --color-accent-hover: var(--live-red-800);
+  --color-accent-on-dark: var(--live-red-400);
+  --color-line: var(--live-grey-200);
+  --color-line-strong: var(--live-grey-300);
+  --color-line-inverse: rgba(255, 255, 255, 0.14);
+  --color-focus: var(--live-red-500);
+
+  /* ---- Colore: visualizzazione dati -------------------------------------- */
+  --viz-1: var(--live-red-700);
+  --viz-2: var(--live-ink-900);
+  --viz-3: var(--live-slate-600);
+  --viz-4: var(--live-red-400);
+  --viz-5: var(--live-grey-300);
+
+  /* ---- Tipografia -------------------------------------------------------- */
+  --font-serif: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  --font-sans: "Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Scala fluida (min @ 360px → max @ 1440px) */
+  --fs-display: clamp(2.75rem, 1.6rem + 5.1vw, 6rem);
+  --fs-h1: clamp(2.25rem, 1.5rem + 3.4vw, 4.5rem);
+  --fs-h2: clamp(1.875rem, 1.35rem + 2.3vw, 3.25rem);
+  --fs-h3: clamp(1.375rem, 1.15rem + 1vw, 2rem);
+  --fs-h4: clamp(1.125rem, 1.05rem + 0.35vw, 1.375rem);
+  --fs-lead: clamp(1.125rem, 1.02rem + 0.5vw, 1.4375rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.9375rem;
+  --fs-caption: 0.8125rem;
+  --fs-overline: 0.75rem;
+
+  --lh-tight: 1.05;
+  --lh-heading: 1.15;
+  --lh-body: 1.6;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --tracking-overline: 0.14em;
+  --tracking-tight: -0.02em;
+
+  /* ---- Spaziatura (base 4px) -------------------------------------------- */
+  --space-1: 0.25rem;  /* 4  */
+  --space-2: 0.5rem;   /* 8  */
+  --space-3: 0.75rem;  /* 12 */
+  --space-4: 1rem;     /* 16 */
+  --space-5: 1.5rem;   /* 24 */
+  --space-6: 2rem;     /* 32 */
+  --space-7: 3rem;     /* 48 */
+  --space-8: 4rem;     /* 64 */
+  --space-9: 6rem;     /* 96 */
+  --space-10: 8rem;    /* 128 */
+  --section-y: clamp(4rem, 2.5rem + 6vw, 9rem);
+
+  /* ---- Layout ------------------------------------------------------------ */
+  --container: 1320px;
+  --container-narrow: 860px;
+  --gutter: clamp(1rem, 0.4rem + 2.6vw, 3rem);
+  --grid-gap: clamp(1rem, 0.6rem + 1.6vw, 2rem);
+  --header-h: 76px;
+
+  /* ---- Forma ------------------------------------------------------------- */
+  --radius-0: 0;
+  --radius-1: 2px;
+  --radius-pill: 999px;
+  --rule: 1px solid var(--color-line);
+  --rule-accent: 3px solid var(--color-accent);
+
+  /* ---- Elevazione -------------------------------------------------------- */
+  --shadow-1: 0 1px 2px rgba(11, 17, 22, 0.06), 0 2px 8px rgba(11, 17, 22, 0.05);
+  --shadow-2: 0 10px 30px -10px rgba(11, 17, 22, 0.22);
+  --shadow-3: 0 30px 60px -20px rgba(11, 17, 22, 0.35);
+
+  /* ---- Movimento --------------------------------------------------------- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-1: 160ms;
+  --dur-2: 320ms;
+  --dur-3: 640ms;
+  --dur-4: 1100ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-1: 0ms;
+    --dur-2: 0ms;
+    --dur-3: 0ms;
+    --dur-4: 0ms;
+  }
+}
